@@ -12,3 +12,7 @@ Route::post('/forgot-password', [AuthController::class, 'forgotPassword'])->name
 Route::post('/reset-password', [AuthController::class, 'resetPassword'])->name('password.reset');
 
 Route::post('/register', [AuthController::class, 'register'])->name('register');
+
+Route::get('/posts');
+
+
